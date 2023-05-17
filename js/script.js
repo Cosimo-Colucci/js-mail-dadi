@@ -23,6 +23,10 @@ const mailList =
  const personalMail = prompt("Please enter your mail")
 
  //con questo if gli diciamo al codice di prendere il valore inserito all'interno del prompt dall'utente e confrontarlo con i valori della lista 
- if (personalMail.value == mailList.value){
+ if (personalMail.value =  "antonio@google.com" || "cosimo@google.com" || "giuseppe@goole.com" || "francesco@google.com" || "simona@goolge.com"){
     console.log ("You are in")
+
+    //adesso ci serve un'altra variabile con la cuale diciamo all'utente di andre via
+ } else {
+    console.log ("Get out")
  }
