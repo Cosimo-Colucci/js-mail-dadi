@@ -9,3 +9,12 @@ for (let i = 0 ; i < 10 ; i++) {
         console.log ("Pc always Winner")
     }
 } 
+
+//creamo una lista di mail
+const mailList =
+ [  "antonio@google.com",
+    "cosimo@google.com",
+    "giuseppe@goole.com",
+    "francesco@google.com",
+    "simona@goolge.com",
+ ]
