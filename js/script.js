@@ -18,3 +18,11 @@ const mailList =
     "francesco@google.com",
     "simona@goolge.com",
  ]
+
+ //creazione pront per chiedere all'utente la propria mail
+ const personalMail = prompt("Please enter your mail")
+
+ //con questo if gli diciamo al codice di prendere il valore inserito all'interno del prompt dall'utente e confrontarlo con i valori della lista 
+ if (personalMail.value == mailList.value){
+    console.log ("You are in")
+ }
