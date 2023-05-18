@@ -18,15 +18,18 @@ const mailList =
     "francesco@google.com",
     "simona@goolge.com",
  ]
+const personalMail = prompt("Please enter your mail");
+let isMailFound = false;
 
- //creazione pront per chiedere all'utente la propria mail
- const personalMail = prompt("Please enter your mail")
+for (let i = 0; i < mailList.length ; i++) {
+    if  ( mailList [i] === personalMail ){
+        isMailFound = true;
+    }
+}
 
- //con questo if gli diciamo al codice di prendere il valore inserito all'interno del prompt dall'utente e confrontarlo con i valori della lista 
- if (personalMail.value =  "antonio@google.com" || "cosimo@google.com" || "giuseppe@goole.com" || "francesco@google.com" || "simona@goolge.com"){
-    console.log ("You are in")
 
-    //adesso ci serve un'altra variabile con la cuale diciamo all'utente di andre via
- } else {
-    console.log ("Get out")
- }
+if ( isMailFound === true){
+    console.log ("Good to go");
+} else {
+    console.log ("Get out");
+}
